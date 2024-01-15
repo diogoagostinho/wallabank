@@ -15,6 +15,7 @@ Libraries used:
 - **AOS - Animation-On-Scroll** - For animations
 - **Tailwind CSS** - For easier design
 - **Sass** - For CSS
+- **React-Router-Dom** - For routing
 
 ---
 
