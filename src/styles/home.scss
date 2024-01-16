@@ -1,0 +1,86 @@
+@use "index";
+
+//Header
+.header {
+  background-image: url(/public/backgrounds/blur-background-1.jpg);
+  background-size: 300% 100%;
+  background-position: center;
+  color: #fff;
+
+  img {
+    width: 80%;
+  }
+}
+
+.header__content {
+  text-align: center;
+}
+
+.header__info {
+  margin: 6rem 28vw;
+
+  p {
+    margin: 1.4rem 0;
+    opacity: 60%;
+  }
+}
+
+.body-btn {
+  background: index.$clp;
+  color: #fff;
+  font-size: 1.8ch;
+}
+
+.body-btn:hover {
+  background: index.$cdp;
+}
+
+//Supporters
+.supporters {
+  width: 100%;
+  background: #000;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 6vw;
+  margin-bottom: 6rem;
+}
+
+.home__content {
+  text-align: center;
+  margin: 0 8rem;
+}
+
+.home__info-block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+
+  p {
+    margin-top: 1rem;
+    font-size: 1.8ch;
+    opacity: 50%;
+    line-height: 2ch;
+  }
+}
+
+.info-block-left {
+  text-align: left;
+}
+
+.info-block-right {
+  width: 80vw;
+
+  img {
+    width: 100%;
+  }
+}
+
+.smaller-left {
+  width: 40%;
+}
+.bigger-right {
+  width: 60%;
+}

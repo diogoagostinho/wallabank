@@ -1,8 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Faq from "./components/FAQ";
+import Faq from "./components/Faq";
 import Blog from "./components/Blog";
 import Blog1 from "./components/Blog1";
 import Blog2 from "./components/Blog2";
@@ -12,8 +11,6 @@ import Blog4 from "./components/Blog4";
 function App() {
   return (
     <>
-      <Navbar />
-
       <Routes>
         <Route index element={<Home />} />
         <Route path="faq" element={<Faq />} />

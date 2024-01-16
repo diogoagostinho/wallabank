@@ -19,4 +19,10 @@ Libraries used:
 
 ---
 
+## To Do:
+
+- Resize and remove background from header image
+
+---
+
 🚀 Have a look at my [Github Profile](https://github.com/diogoagostinho)

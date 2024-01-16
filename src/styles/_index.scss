@@ -1,0 +1,86 @@
+////  VARIABLES
+
+//Font Weight
+$fwl: 300;
+$fwr: 400;
+$fwm: 500;
+$fwb: 700;
+
+//Colors
+$clp: #9e56fd;
+$cdp: #7f1cff;
+
+////  MAIN CLASSES
+
+#root {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Satoshi", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 2ch;
+}
+
+h1 {
+  font-size: 4ch;
+}
+
+h2 {
+  font-size: 3ch;
+}
+
+button {
+  font-size: 1.5ch;
+  font-weight: $fwb;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1.4rem;
+  cursor: pointer;
+  background: #fff;
+  transition: all 0.16s ease-in;
+}
+
+button:hover {
+  background: #000;
+  color: #fff;
+  box-shadow: 0 0 50px 0 rgb(0, 0, 0, 0.6);
+}
+
+////  CLASSES
+
+//Navbar
+.navbar,
+.navbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  justify-content: space-between;
+  padding: 1.4rem;
+}
+
+.navbar__left {
+  width: 150px;
+}
+
+.navbar__right {
+  gap: 2.2rem;
+  p {
+    font-size: 1.6ch;
+    font-weight: $fwm;
+  }
+}

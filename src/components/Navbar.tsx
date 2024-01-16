@@ -6,7 +6,7 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar__left">
           <Link to="/">
-            <img src="" />
+            <img src="/public/vibrant.svg" />
           </Link>
         </div>
         <div className="navbar__right">
@@ -19,7 +19,7 @@ function Navbar() {
           <Link to="blog">
             <p>Blog</p>
           </Link>
-          <button className="navbar__button">Get for Free</button>
+          <button>Get for Free</button>
         </div>
       </div>
     </>
