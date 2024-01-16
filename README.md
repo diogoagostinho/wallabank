@@ -13,17 +13,23 @@ Built with **Vite** and deployed to **NextJS**.
 Libraries used:
 
 - **AOS - Animation-On-Scroll** - For animations
-- **Tailwind CSS** - For easier design
 - **Sass** - For CSS
-- **React-Router-Dom** - For routing
+
+Fonts used:
+
+- [Satoshi](https://www.fontshare.com/fonts/satoshi)
+- [Clash Display](https://www.fontshare.com/fonts/clash-display)
 
 ---
 
-## To Do:
+To Do:
 
 - Make Icon for website
 - Put shadows underneath images in home content
 - Make logo for navbar
+- All blogs page
+- Each blog page
+- Animations
 
 ---
 
