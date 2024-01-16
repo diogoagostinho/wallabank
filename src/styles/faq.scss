@@ -1,0 +1,39 @@
+@use "index";
+
+.faq {
+  background-image: url(/public/backgrounds/blur-background-5.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.faq__content {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  padding: 4rem 6rem;
+
+  h1 {
+    font-size: 3.4ch;
+  }
+  h2 {
+    font-size: 2.2ch;
+    color: index.$clt;
+    font-weight: index.$fwr;
+    margin-top: 1rem;
+  }
+  h3 {
+    color: #fff;
+    font-size: 1.8ch;
+    font-weight: index.$fwb;
+  }
+  p {
+    margin-top: 0.4rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.6ch;
+    font-weight: index.$fwm;
+  }
+}
+
+.faq-block {
+  margin-bottom: 3rem;
+}

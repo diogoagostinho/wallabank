@@ -158,62 +158,64 @@ function Home() {
         </div>
         <h1>Ready to get started?</h1>
         <h3>Choose a plan fits to your needs</h3>
-        <div className="plan">
-          <div className="plan-left">
-            <h2>Personal</h2>
-            <p>Best for small teams or solo developers</p>
-            <div className="price">
-              <h1>$2.99</h1>
-              <p>/mo</p>
+        <div className="plan-background">
+          <div className="plan">
+            <div className="plan-left">
+              <h2>Personal</h2>
+              <p>Best for small teams or solo developers</p>
+              <div className="price">
+                <h1>$2.99</h1>
+                <p>/mo</p>
+              </div>
+              <button className="body-btn">Try for Free</button>
+              <div className="price-checklist">
+                <div className="checklist-item checklist-left">
+                  <img src="/public/checkbox.svg" />
+                  <p>Request unlimited designs</p>
+                </div>
+                <div className="checklist-item checklist-left">
+                  <img src="/public/checkbox.svg" />
+                  <p>Delivery as-you-need</p>
+                </div>
+                <div className="checklist-item checklist-left">
+                  <img src="/public/checkbox.svg" />
+                  <p>No limit on revisions</p>
+                </div>
+              </div>
             </div>
-            <button className="body-btn">Try for Free</button>
-            <div className="price-checklist">
-              <div className="checklist-item checklist-left">
-                <img src="/public/checkbox.svg" />
-                <p>Request unlimited designs</p>
+            <div className="plan-right">
+              <h2>Business</h2>
+              <p>Best for brands that need designs on an ongoing basis</p>
+              <div className="price">
+                <h1>$8.99</h1>
+                <p>/mo</p>
               </div>
-              <div className="checklist-item checklist-left">
-                <img src="/public/checkbox.svg" />
-                <p>Delivery as-you-need</p>
-              </div>
-              <div className="checklist-item checklist-left">
-                <img src="/public/checkbox.svg" />
-                <p>No limit on revisions</p>
-              </div>
-            </div>
-          </div>
-          <div className="plan-right">
-            <h2>Business</h2>
-            <p>Best for brands that need designs on an ongoing basis</p>
-            <div className="price">
-              <h1>$8.99</h1>
-              <p>/mo</p>
-            </div>
-            <button>Try for Free</button>
-            <div className="price-checklist">
-              <div className="checklist-item checklist-right">
-                <img src="/public/checkbox.svg" />
-                <p>Request unlimited designs</p>
-              </div>
-              <div className="checklist-item checklist-right">
-                <img src="/public/checkbox.svg" />
-                <p>Delivery as-you-need</p>
-              </div>
-              <div className="checklist-item checklist-right">
-                <img src="/public/checkbox.svg" />
-                <p>No limit on revisions</p>
-              </div>
-              <div className="checklist-item checklist-right">
-                <img src="/public/checkbox.svg" />
-                <p>WallaBank Helper AI ✨</p>
-              </div>
-              <div className="checklist-item checklist-right">
-                <img src="/public/checkbox.svg" />
-                <p>Private help center</p>
-              </div>
-              <div className="checklist-item checklist-right">
-                <img src="/public/checkbox.svg" />
-                <p>Personal mentor per team</p>
+              <button>Try for Free</button>
+              <div className="price-checklist">
+                <div className="checklist-item checklist-right">
+                  <img src="/public/checkbox.svg" />
+                  <p>Request unlimited designs</p>
+                </div>
+                <div className="checklist-item checklist-right">
+                  <img src="/public/checkbox.svg" />
+                  <p>Delivery as-you-need</p>
+                </div>
+                <div className="checklist-item checklist-right">
+                  <img src="/public/checkbox.svg" />
+                  <p>No limit on revisions</p>
+                </div>
+                <div className="checklist-item checklist-right">
+                  <img src="/public/checkbox.svg" />
+                  <p>WallaBank Helper AI ✨</p>
+                </div>
+                <div className="checklist-item checklist-right">
+                  <img src="/public/checkbox.svg" />
+                  <p>Private help center</p>
+                </div>
+                <div className="checklist-item checklist-right">
+                  <img src="/public/checkbox.svg" />
+                  <p>Personal mentor per team</p>
+                </div>
               </div>
             </div>
           </div>
