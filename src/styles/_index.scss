@@ -9,6 +9,8 @@ $fwb: 700;
 //Colors
 $clp: #9e56fd;
 $cdp: #7f1cff;
+$clt: #898989;
+$cdt: #595959;
 
 ////  MAIN CLASSES
 
@@ -40,6 +42,12 @@ h1 {
 
 h2 {
   font-size: 3ch;
+}
+
+h3 {
+  font-size: 2ch;
+  font-weight: $fwm;
+  color: $clt;
 }
 
 button {

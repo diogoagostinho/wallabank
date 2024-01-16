@@ -21,7 +21,9 @@ Libraries used:
 
 ## To Do:
 
-- Resize and remove background from header image
+- Make Icon for website
+- Put shadows underneath images in home content
+- Make logo for navbar
 
 ---
 
