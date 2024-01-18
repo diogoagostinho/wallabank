@@ -85,6 +85,13 @@ button:hover {
   width: 150px;
 }
 
+.navbar__left,
+.footer-top {
+  img {
+    width: 150px;
+  }
+}
+
 .navbar__right {
   gap: 2.2rem;
   p {

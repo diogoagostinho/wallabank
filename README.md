@@ -25,7 +25,7 @@ To Do:
 - ~~Make Icon for website~~
 - ~~All blogs page~~
 - ~~Each blog page~~
-- Make logo for navbar
+- ~~Make logo for navbar~~
 - Responsive design
 - Animations
 - Testing

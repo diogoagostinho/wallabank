@@ -6,7 +6,7 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar__left">
           <Link to="/">
-            <img src="/public/vibrant.svg" />
+            <img src="/public/wallabank.png" />
           </Link>
         </div>
         <div className="navbar__right">

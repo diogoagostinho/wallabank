@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 function Home() {
   useEffect(() => {
-    document.title = "WallaBank";
+    document.title = "wallabank";
   });
   return (
     <>
