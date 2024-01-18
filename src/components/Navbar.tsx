@@ -13,10 +13,10 @@ function Navbar() {
           <Link to="/">
             <p>Home</p>
           </Link>
-          <Link to="faq">
+          <Link to="/faq">
             <p>FAQ</p>
           </Link>
-          <Link to="blog">
+          <Link to="/blog">
             <p>Blog</p>
           </Link>
           <button>Get for Free</button>

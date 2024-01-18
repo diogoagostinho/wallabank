@@ -2,8 +2,12 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 import "../styles/faq.scss";
+import { useEffect } from "react";
 
 function Faq() {
+  useEffect(() => {
+    document.title = "FAQ";
+  });
   return (
     <>
       <div className="faq">

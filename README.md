@@ -4,8 +4,6 @@
 
 Website made with **React** and **TypeScript**.
 
-_Inspired by [Code Less: Vibrant](https://vibrant.framer.website/)_
-
 ---
 
 Built with **Vite** and deployed to **NextJS**.
@@ -24,12 +22,14 @@ Fonts used:
 
 To Do:
 
-- Make Icon for website
-- Put shadows underneath images in home content
+- ~~Make Icon for website~~
+- ~~All blogs page~~
+- ~~Each blog page~~
 - Make logo for navbar
-- All blogs page
-- Each blog page
+- Responsive design
 - Animations
+- Testing
+- Deployment
 
 ---
 

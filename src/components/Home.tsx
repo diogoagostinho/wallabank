@@ -3,8 +3,12 @@ import Navbar from "./Navbar";
 import Review from "./Review";
 
 import "../styles/home.scss";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    document.title = "WallaBank";
+  });
   return (
     <>
       <div className="header">
