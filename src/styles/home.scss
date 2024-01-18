@@ -291,3 +291,154 @@
 .checklist-right > p {
   color: #fff;
 }
+
+@media screen and (min-width: 1800px) {
+  .home__content {
+    margin: 0 24vw;
+  }
+  .cta__content {
+    img {
+      transform: translate(10px, 300px);
+    }
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .cta__content {
+    img {
+      transform: translate(10px, 240px);
+    }
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .cta__content {
+    img {
+      transform: translate(10px, 200px);
+    }
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .cta__content {
+    img {
+      transform: translate(0, 200px);
+    }
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .cta__content {
+    img {
+      transform: translate(0, 250px);
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .cta__content {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    img {
+      max-width: 800px;
+      transform: translateY(150px);
+      border-radius: 20px;
+    }
+  }
+
+  .cta-right {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .cta-left {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(80px);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cta-left {
+    margin: 0 10vw;
+    h1 {
+      font-size: 3ch;
+    }
+  }
+
+  .cta__content {
+    img {
+      transform: translateY(220px);
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home__info-block {
+    flex-direction: column;
+    img {
+      max-width: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .supporters {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .header__info {
+    text-align: left;
+    h1 {
+      font-size: 2.8ch;
+    }
+    p {
+      font-size: 1.6ch;
+    }
+  }
+
+  .cta {
+    height: 400px;
+  }
+
+  .cta__content {
+    height: 100%;
+
+    img {
+      display: none;
+    }
+  }
+
+  .cta-left {
+    transform: none;
+    h1 {
+      font-size: 2.4ch;
+    }
+    span {
+      color: #ffffff85;
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .home__info-block {
+    img {
+      display: none;
+      margin: 0;
+    }
+    display: block;
+    margin-bottom: 4rem;
+  }
+}
