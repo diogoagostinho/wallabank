@@ -52,3 +52,25 @@ hr {
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-form {
+    flex-direction: column;
+
+    overflow: hidden;
+
+    input {
+      width: 100%;
+    }
+  }
+}
