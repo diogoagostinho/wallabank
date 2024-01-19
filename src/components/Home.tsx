@@ -45,7 +45,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="home__info-block">
+        <div className="home__info-block info-block-reversed">
           <div className="info-block-left info-block-img">
             <img src="/public/info/info-3.png" />
           </div>
