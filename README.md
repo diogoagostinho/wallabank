@@ -10,7 +10,7 @@ Built with **Vite** and deployed to **NextJS**.
 
 Libraries used:
 
-- **AOS - Animation-On-Scroll** - For animations
+- **React Reveal** - For animations
 - **Sass** - For CSS
 
 Fonts used:
@@ -27,7 +27,7 @@ To Do:
 - ~~Each blog page~~
 - ~~Make logo for navbar~~
 - ~~Responsive design~~
-- Animations
+- ~~Animations~~
 - Testing
 - Deployment
 
