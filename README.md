@@ -26,7 +26,7 @@ To Do:
 - ~~All blogs page~~
 - ~~Each blog page~~
 - ~~Make logo for navbar~~
-- Responsive design
+- ~~Responsive design~~
 - Animations
 - Testing
 - Deployment
