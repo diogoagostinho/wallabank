@@ -43,6 +43,6 @@
 
 ---
 
-<p align="center">🚀 Have a look at my [Github Profile](https://github.com/diogoagostinho)</p>
+<p align="center">🚀 Have a look at my <a href="https://github.com/diogoagostinho">Github Profile</a></p>
 
 ###
