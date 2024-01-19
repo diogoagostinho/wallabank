@@ -8,7 +8,7 @@ function Review(props: {
     <>
       <div className="review-window">
         <div className="review-profile">
-          <img src={"/public/profiles/" + props.rImg + ".png"} />
+          <img src={"/profiles/" + props.rImg + ".png"} />
           <div className="person-info">
             <p className="person-name">{props.rName}</p>
             <p className="person-job">{props.rJob}</p>

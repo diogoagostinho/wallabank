@@ -25,15 +25,15 @@ function Home() {
               </p>
               <button className="body-btn">Get for Free</button>
             </div>
-            <img src="/public/info/info-4.png" />
+            <img src="/info/info-4.png" />
           </div>
         </Fade>
       </div>
       <div className="supporters">
-        <img src="/public/logos/airtable.svg" />
-        <img src="/public/logos/framer.svg" />
-        <img src="/public/logos/asana.svg" />
-        <img src="/public/logos/mailchimp.svg" />
+        <img src="/logos/airtable.svg" />
+        <img src="/logos/framer.svg" />
+        <img src="/logos/asana.svg" />
+        <img src="/logos/mailchimp.svg" />
       </div>
       <div className="home__content">
         <Fade right>
@@ -46,14 +46,14 @@ function Home() {
               </p>
             </div>
             <div className="info-block-right info-block-img">
-              <img src="/public/info/info-1.png" />
+              <img src="/info/info-1.png" />
             </div>
           </div>
         </Fade>
         <Fade left>
           <div className="home__info-block info-block-reversed">
             <div className="info-block-left info-block-img">
-              <img src="/public/info/info-3.png" />
+              <img src="/info/info-3.png" />
             </div>
             <div className="info-block-right info-block-text">
               <h2>Control your expenses and save money</h2>
@@ -63,11 +63,11 @@ function Home() {
               </p>
               <div className="info-block-checklist">
                 <div className="checklist-item">
-                  <img src="/public/checkbox.svg" />
+                  <img src="/checkbox.svg" />
                   <p>Molestie eget non libero viverra vitae nibh</p>
                 </div>
                 <div className="checklist-item">
-                  <img src="/public/checkbox.svg" />
+                  <img src="/checkbox.svg" />
                   <p>Aliquam in sollicitudin sem</p>
                 </div>
               </div>
@@ -84,7 +84,7 @@ function Home() {
               </p>
             </div>
             <div className="info-block-right info-block-img">
-              <img src="/public/info/info-2.jpg" />
+              <img src="/info/info-2.jpg" />
             </div>
           </div>
         </Fade>
@@ -97,7 +97,7 @@ function Home() {
                 <span>*No credit card required</span>
               </div>
               <div className="cta-right">
-                <img src="/public/info/info-5.png" />
+                <img src="/info/info-5.png" />
               </div>
             </div>
           </div>
@@ -185,15 +185,15 @@ function Home() {
                 <button className="body-btn">Try for Free</button>
                 <div className="price-checklist">
                   <div className="checklist-item checklist-left">
-                    <img src="/public/checkbox.svg" />
+                    <img src="/checkbox.svg" />
                     <p>Request unlimited designs</p>
                   </div>
                   <div className="checklist-item checklist-left">
-                    <img src="/public/checkbox.svg" />
+                    <img src="/checkbox.svg" />
                     <p>Delivery as-you-need</p>
                   </div>
                   <div className="checklist-item checklist-left">
-                    <img src="/public/checkbox.svg" />
+                    <img src="/checkbox.svg" />
                     <p>No limit on revisions</p>
                   </div>
                 </div>
@@ -209,27 +209,27 @@ function Home() {
                 <button>Try for Free</button>
                 <div className="price-checklist">
                   <div className="checklist-item checklist-right">
-                    <img src="/public/checkbox.svg" />
+                    <img src="/checkbox.svg" />
                     <p>Request unlimited designs</p>
                   </div>
                   <div className="checklist-item checklist-right">
-                    <img src="/public/checkbox.svg" />
+                    <img src="/checkbox.svg" />
                     <p>Delivery as-you-need</p>
                   </div>
                   <div className="checklist-item checklist-right">
-                    <img src="/public/checkbox.svg" />
+                    <img src="/checkbox.svg" />
                     <p>No limit on revisions</p>
                   </div>
                   <div className="checklist-item checklist-right">
-                    <img src="/public/checkbox.svg" />
+                    <img src="/checkbox.svg" />
                     <p>WallaBank Helper AI ✨</p>
                   </div>
                   <div className="checklist-item checklist-right">
-                    <img src="/public/checkbox.svg" />
+                    <img src="/checkbox.svg" />
                     <p>Private help center</p>
                   </div>
                   <div className="checklist-item checklist-right">
-                    <img src="/public/checkbox.svg" />
+                    <img src="/checkbox.svg" />
                     <p>Personal mentor per team</p>
                   </div>
                 </div>

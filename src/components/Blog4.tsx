@@ -21,7 +21,7 @@ function Blog4() {
           </div>
           <div className="blog__lower">
             <div className="blog-image-cont">
-              <img src="/public/blog/4.jpg" alt="" />
+              <img src="/blog/4.jpg" alt="" />
             </div>
           </div>
         </Fade>

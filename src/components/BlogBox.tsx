@@ -39,7 +39,7 @@ function BlogBox(props: { blogId: string }) {
       <Link to={blogLinkRoute} style={{ textDecoration: "none" }}>
         <div className="blog-box ">
           <div className="blog-image">
-            <img src={"/public/blog/" + props.blogId + ".jpg"} />
+            <img src={"/blog/" + props.blogId + ".jpg"} />
           </div>
           <div className="blog-info ">
             <h2>{blogTitle}</h2>

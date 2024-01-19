@@ -1,35 +1,21 @@
-# WallaBank
+# wallabank
 
-###### Landing page for a fintech wallet/bank platform
+#### Landing page for a fintech wallet/bank platform
 
-Website made with **React** and **TypeScript**.
-
----
-
-Built with **Vite** and deployed to **NextJS**.
-
-Libraries used:
-
-- **React Reveal** - For animations
-- **Sass** - For CSS
-
-Fonts used:
-
-- [Satoshi](https://www.fontshare.com/fonts/satoshi)
-- [Clash Display](https://www.fontshare.com/fonts/clash-display)
+![Logo](https://raw.githubusercontent.com/diogoagostinho/wallabank/main/assets/wallabank.png)
 
 ---
 
-To Do:
+## Libraries used
 
-- ~~Make Icon for website~~
-- ~~All blogs page~~
-- ~~Each blog page~~
-- ~~Make logo for navbar~~
-- ~~Responsive design~~
-- ~~Animations~~
-- Testing
-- Deployment
+- **[React Reveal](https://www.npmjs.com/package/react-reveal)** - For animations
+- **[Sass](https://www.npmjs.com/package/sass)** - For CSS
+- **[React Router Dom](https://www.npmjs.com/package/react-router-dom)** - For routing
+
+## Fonts used
+
+- **[Satoshi](https://www.fontshare.com/fonts/satoshi)**
+- **[Clash Display](https://www.fontshare.com/fonts/clash-display)**
 
 ---
 

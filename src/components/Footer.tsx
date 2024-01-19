@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer">
         <div className="footer__content">
           <div className="footer-top">
-            <img src="/public/wallabank.png" />
+            <img src="/wallabank.png" />
             <p>WallaBank is a landing page for a fintech platform</p>
             <div className="footer-form">
               <input type="email" placeholder="Your e-mail address" />
