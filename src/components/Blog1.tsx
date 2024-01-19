@@ -2,11 +2,18 @@ import { useEffect } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import { Fade } from "react-reveal";
+import { useLocation } from "react-router-dom";
 
 function Blog1() {
   useEffect(() => {
     document.title = "10 ways to improve your launch campaign";
   });
+
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <div className="blog">

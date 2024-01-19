@@ -2,11 +2,16 @@ import { useEffect } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import { Fade } from "react-reveal";
+import { useLocation } from "react-router-dom";
 
 function Blog4() {
   useEffect(() => {
     document.title = "How to Improve Web Design Process";
   });
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
       <div className="blog">

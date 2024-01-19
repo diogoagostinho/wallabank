@@ -112,18 +112,17 @@ function Home() {
                 rJob="CEO"
                 rDescription="Morbi at metus accumsan, posuere mi quis, tempus tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
               />
-
               <Review
                 rImg="profile-2"
                 rName="Susan Platz"
                 rJob="Web Developer"
                 rDescription="Fusce quis sapien tristique mauris tempor tristique. Donec efficitur gravida nibh, ac aliquet diam volutpat non."
-              />
+              />{" "}
               <Review
-                rImg="profile-3"
-                rName="Sylvester Stallone"
-                rJob="Designer"
-                rDescription="Morbi at metus accumsan, posuere mi quis, tempus tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+                rImg="profile-5"
+                rName="Ryan Reynolds"
+                rJob="Software Developer"
+                rDescription="Donec efficitur gravida nibh, ac aliquet diam volutpat non."
               />
             </div>
 
@@ -149,12 +148,11 @@ function Home() {
             </div>
             <div className="reviews__right">
               <Review
-                rImg="profile-5"
-                rName="Ryan Reynolds"
-                rJob="Software Developer"
-                rDescription="Donec efficitur gravida nibh, ac aliquet diam volutpat non."
+                rImg="profile-3"
+                rName="Sylvester Stallone"
+                rJob="Designer"
+                rDescription="Morbi at metus accumsan, posuere mi quis, tempus tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
               />
-
               <Review
                 rImg="profile-1"
                 rName="Ryan Gosling"
